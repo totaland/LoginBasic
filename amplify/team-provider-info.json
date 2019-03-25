@@ -1,0 +1,19 @@
+{
+    "environ": {
+        "awscloudformation": {
+            "AuthRoleName": "cory-login-20190324102243-authRole",
+            "UnauthRoleArn": "arn:aws:iam::488315833985:role/cory-login-20190324102243-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::488315833985:role/cory-login-20190324102243-authRole",
+            "Region": "us-east-2",
+            "DeploymentBucketName": "cory-login-20190324102243-deployment",
+            "UnauthRoleName": "cory-login-20190324102243-unauthRole",
+            "StackName": "cory-login-20190324102243",
+            "StackId": "arn:aws:cloudformation:us-east-2:488315833985:stack/cory-login-20190324102243/f02a3020-4dca-11e9-bac1-0a2bc77d7190"
+        },
+        "categories": {
+            "auth": {
+                "cognito223ff108": {}
+            }
+        }
+    }
+}
