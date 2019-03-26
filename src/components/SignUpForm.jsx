@@ -142,11 +142,18 @@ class SignUpForm extends Component {
                                     <h3>Confirmation Code</h3>
                                 </div>
                                 <div className="card-content">
+                                    <div className="input-field">
                                     <label>Username</label>
                                     <input type="text" name='username' onChange={this.handleChange}/>
+                                    </div>
+                                    <div className="input-field">
                                     <label>Confirmation Code</label>
                                     <input type="text" name='confirmationCode' onChange={this.handleChange}/>
-                                    <button type={'submit'}>Confirm</button>
+                                    </div>
+                                    <div className="input-field">
+                                        <button type={'submit'} className="btn-large cyan lighten-2" style={{width: '100%'}}>Confirm
+                                        </button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
