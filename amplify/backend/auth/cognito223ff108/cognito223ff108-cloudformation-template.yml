@@ -118,15 +118,24 @@ Parameters:
   userpoolClientSetAttributes:
     Type: String
           
-  useDefault:
-    Type: String
-            
   resourceName:
     Type: String
             
   authSelections:
     Type: String
-                                                  
+                                                    
+  useDefault:
+    Type: String
+                  
+  authProviders:
+    Type: CommaDelimitedList
+      
+  facebookAppId:
+    Type: String
+            
+  selectedParties:
+    Type: String
+          
 Conditions:
   ShouldNotCreateEnvResources: !Equals [ !Ref env, NONE ]
 
@@ -340,6 +349,12 @@ Resources:
             - cognito-idp.${region}.amazonaws.com/${client}
             - { region: !Ref "AWS::Region",  client: !Ref UserPool}
             
+      SupportedLoginProviders: 
+        
+          
+          graph.facebook.com: '853618614979245'
+                   
+      
       AllowUnauthenticatedIdentities: !Ref allowUnauthenticatedIdentities
        
        
@@ -384,5 +399,8 @@ Outputs :
    
    
   
+  
+  FacebookWebClient:
+    Value: 853618614979245
    
   

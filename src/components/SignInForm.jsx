@@ -1,12 +1,12 @@
 import React, {Component} from "react";
-import { Auth } from 'aws-amplify';
+import {Auth} from 'aws-amplify';
 
 class SignInForm extends Component {
     constructor(props) {
         super(props);
-        this.state ={
-            username:'',
-            password:'',
+        this.state = {
+            username: '',
+            password: '',
             signedIn: false
         }
         this.handleChange = this.handleChange.bind(this);
@@ -16,7 +16,7 @@ class SignInForm extends Component {
 
     handleSubmit(e) {
         e.preventDefault();
-        const { signedIn, username, password} = this.state;
+        const {signedIn, username, password} = this.state;
 
         Auth.signIn({
             username: username,
@@ -55,7 +55,7 @@ class SignInForm extends Component {
                     <div className="col s12 m6 offset-m3">
                         <div className="card">
                             <div className="card-action cyan lighten-2 white-text">
-                                <h3>Login Form</h3>
+                                <h3 className={'center-align'}>Login Form</h3>
                             </div>
                             <div className="card-content">
                                 <div className="input-field">
@@ -76,14 +76,14 @@ class SignInForm extends Component {
                                     <label htmlFor="checkbox">
                                         <input type="checkbox" name="checkbox" className="filled-in"
                                                onChange={this.handleChange}/>
-                                        <span> Remember me</span>
+                                        <span>Remember me</span>
                                     </label>
-
                                 </div>
                                 <br/>
 
                                 <div className="input-fields">
-                                    <button type={'submit'} className="btn-large cyan lighten-2" style={{ width: '100%' }}>Login
+                                    <button type={'submit'} className="btn-large cyan lighten-2"
+                                            style={{width: '100%'}}>Login
                                     </button>
                                 </div>
                                 <br/>

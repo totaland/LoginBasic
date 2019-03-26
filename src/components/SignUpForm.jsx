@@ -82,7 +82,7 @@ class SignUpForm extends Component {
                         <div className="col s12 m6 offset-m3">
                             <div className="card">
                                 <div className="card-action cyan lighten-2 white-text">
-                                    <h3>Register Form</h3>
+                                    <h3 className={'center-align'}>Register Form</h3>
                                 </div>
                                 <div className="card-content">
                                     <div className="input-field">
@@ -139,7 +139,7 @@ class SignUpForm extends Component {
                         <div className="col s12 m6 offset-m3">
                             <div className="card">
                                 <div className="card-action cyan lighten-2 white-text">
-                                    <h3>Confirmation Code</h3>
+                                    <h3 className={'center-align'}>Confirmation Code</h3>
                                 </div>
                                 <div className="card-content">
                                     <div className="input-field">

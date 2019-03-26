@@ -12,7 +12,9 @@
         },
         "categories": {
             "auth": {
-                "cognito223ff108": {}
+                "cognito223ff108": {
+                    "facebookAppId": "853618614979245"
+                }
             }
         }
     }
