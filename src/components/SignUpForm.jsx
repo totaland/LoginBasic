@@ -134,7 +134,7 @@ class SignUpForm extends Component {
 
         } else {
             return (
-                <form onSubmit={this.handleSubmit}>
+                <form onSubmit={this.handleConfirmationSubmit}>
                     <div className="row">
                         <div className="col s12 m6 offset-m3">
                             <div className="card">
