@@ -134,12 +134,23 @@ class SignUpForm extends Component {
 
         } else {
             return (
-                <form onSubmit={this.handleConfirmationSubmit}>
-                    <label>Username</label>
-                    <input type="text" name='username' onChange={this.handleChange}/>
-                    <label>Confirmation Code</label>
-                    <input type="text" name='confirmationCode' onChange={this.handleChange}/>
-                    <button type={'submit'}>Confirm</button>
+                <form onSubmit={this.handleSubmit}>
+                    <div className="row">
+                        <div className="col s12 m6 offset-m3">
+                            <div className="card">
+                                <div className="card-action cyan lighten-2 white-text">
+                                    <h3>Confirmation Code</h3>
+                                </div>
+                                <div className="card-content">
+                                    <label>Username</label>
+                                    <input type="text" name='username' onChange={this.handleChange}/>
+                                    <label>Confirmation Code</label>
+                                    <input type="text" name='confirmationCode' onChange={this.handleChange}/>
+                                    <button type={'submit'}>Confirm</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </form>
             )
         }
