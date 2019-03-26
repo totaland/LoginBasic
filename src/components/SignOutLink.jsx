@@ -2,7 +2,7 @@ import React from 'react'
 import { NavLink, withRouter } from 'react-router-dom'
 const SignOutLink = (props) => {
     return (
-        <ul className={'right'}>
+        <ul className={'right hide-on-med-and-down'}>
             <li>
                 <li><NavLink to={'/register'}>Signup</NavLink></li>
                 <li><NavLink to={'/login'}>Login</NavLink></li>

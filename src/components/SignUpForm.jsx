@@ -51,9 +51,9 @@ class SignUpForm extends Component {
         this.setState({isLoading: true});
 
         try {
-            Auth.confirmSignUp(this.state.email, this.state.confirmationCode)
+            Auth.confirmSignUp(this.state.username, this.state.confirmationCode)
                 .then(() => {
-                        Auth.signIn(this.state.email, this.state.password)
+                        Auth.signIn(this.state.username, this.state.password)
                         this.props.userHasAuthenticated(true);
                         this.props.history.push("/");
                     }
@@ -75,17 +75,7 @@ class SignUpForm extends Component {
 
     render() {
 
-        if (this.state.newUser !==null) {
-            return (
-                <form onSubmit={this.handleConfirmationSubmit}>
-                    <label>Username</label>
-                    <input type="text" name='username' onChange={this.handleChange}/>
-                    <label>Confirmation Code</label>
-                    <input type="text" name='confirmationCode' onChange={this.handleChange}/>
-                    <button>Confirm</button>
-                </form>
-            )
-        } else {
+        if (this.state.newUser ===null) {
             return (
                 <form onSubmit={this.handleSubmit}>
                     <div className="row">
@@ -131,7 +121,7 @@ class SignUpForm extends Component {
                                     {/*<br/>*/}
 
                                     <div className="input-field">
-                                        <button className="btn-large cyan lighten-2" style={{width: '100%'}}>Register
+                                        <button type={'submit'} className="btn-large cyan lighten-2" style={{width: '100%'}}>Register
                                         </button>
                                     </div>
                                     <br/>
@@ -141,6 +131,17 @@ class SignUpForm extends Component {
                     </div>
                 </form>
             );
+
+        } else {
+            return (
+                <form onSubmit={this.handleConfirmationSubmit}>
+                    <label>Username</label>
+                    <input type="text" name='username' onChange={this.handleChange}/>
+                    <label>Confirmation Code</label>
+                    <input type="text" name='confirmationCode' onChange={this.handleChange}/>
+                    <button type={'submit'}>Confirm</button>
+                </form>
+            )
         }
     }
 

@@ -83,7 +83,7 @@ class SignInForm extends Component {
                                 <br/>
 
                                 <div className="input-fields">
-                                    <button className="btn-large cyan lighten-2" style={{ width: '100%' }}>Login
+                                    <button type={'submit'} className="btn-large cyan lighten-2" style={{ width: '100%' }}>Login
                                     </button>
                                 </div>
                                 <br/>

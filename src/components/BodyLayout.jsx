@@ -5,9 +5,7 @@ import {Redirect, withRouter} from 'react-router-dom'
 const BodyLayout = (props) => {
     console.log(props);
     return (
-        <div className="container">
-            <GetAccessToken/>
-        </div>
+        <GetAccessToken/>
     )
 }
 

@@ -138,7 +138,7 @@ class GetAccessToken extends React.Component {
                                 <label htmlFor="emotionalTies">EmotionalTies</label>
                             </div>
 
-                            <button onClick={this.handleClick} className="btn-large pulse cyan lighten-2" style={{ width: '100%' }}>Get Access</button>
+                            <button onClick={this.handleClick} className="btn-large waves-red cyan lighten-2" style={{ width: '100%' }}>Get Access</button>
                         </div>
                     </div>
                 </div>
