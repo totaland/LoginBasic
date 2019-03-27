@@ -78,7 +78,7 @@ export default class FacebookButton extends Component {
                 className="btn-large cyan lighten-2"
                 onClick={this.handleClick}
                 disabled={this.state.isLoading}>
-                Login with Facebook
+                {this.props.message}
             </button>
 
         );

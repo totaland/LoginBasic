@@ -1,5 +1,6 @@
 import React, {Component} from "react";
 import {Auth} from 'aws-amplify';
+import FacebookButton from "./FacebookButton";
 
 class SignUpForm extends Component {
     constructor(props) {
@@ -17,6 +18,10 @@ class SignUpForm extends Component {
         this.handleSubmit = this.handleSubmit.bind(this);
 
     }
+
+    handleFbLogin = () => {
+        this.props.userHasAuthenticated(true);
+    };
 
 
     handleSubmit(e) {
@@ -123,6 +128,10 @@ class SignUpForm extends Component {
                                     <div className="input-field">
                                         <button type={'submit'} className="btn-large cyan lighten-2" style={{width: '100%'}}>Register
                                         </button>
+                                    </div>
+                                    <br/>
+                                    <div className="input-fields">
+                                        <FacebookButton onLogin={this.handleFbLogin} message={'Sign Up with FaceBook'}/>
                                     </div>
                                     <br/>
                                 </div>

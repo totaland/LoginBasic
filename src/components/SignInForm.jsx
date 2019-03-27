@@ -95,7 +95,7 @@ class SignInForm extends Component {
                                 <br/>
 
                                 <div className="input-fields">
-                                    <FacebookButton onLogin={this.handleFbLogin}/>
+                                    <FacebookButton onLogin={this.handleFbLogin} message={'Login with FaceBook'}/>
                                 </div>
                                 <br/>
                             </div>
