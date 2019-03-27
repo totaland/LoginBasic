@@ -1,28 +1,24 @@
 import React from 'react'
 import { NavLink, withRouter } from 'react-router-dom'
-import { Auth } from 'aws-amplify';
+
 const SideNavSignIn = (props) => {
-    console.log(props);
+
     return (
         <ul>
             <li>
                 <div className="user-view">
-                    {/*<div className="background">*/}
-                        {/*/!*<img src="images/office.jpg"/>*!/*/}
+                    <div className="background">
 
-                    {/*</div>*/}
-                    <a href="#user" className={'circle'}>PP</a>
-                    <a href="#name"><span className="white-text name">John Doe</span></a>
-                    <a href="#email"><span className="white-text email">jdandturk@gmail.com</span></a>
+                    </div>
+                    <a href="#user" className={'btn btn-floating cyan lighten-1 sidenav-button'}>PP</a>
+                    <a href="#name"><span className="grey-text name">Lea Medhurst</span></a>
+                    <a href="#email"><span className="grey-text email">james.nguyen868@gmail.com</span></a>
                 </div>
             </li>
             <li><NavLink className="waves-effect" to={'/'}>Home</NavLink></li>
-            <li><a onClick={props.props.signOut}>Log Out</a></li>
-            {/*<li>*/}
-                {/*<div className="divider"></div>*/}
-            {/*</li>*/}
-            {/*<li><a className="subheader">Subheader</a></li>*/}
-            {/*<li><a className="waves-effect" href="#!">Third Link With Waves</a></li>*/}
+
+            <li><a onClick={props.props.props.signOut}>Log Out</a></li>
+
         </ul>
     )
 }

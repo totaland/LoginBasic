@@ -37,7 +37,10 @@ class SignUpForm extends Component {
                     email: email,
                     phone_number: phone_number
                 }
-            }).then(() => console.log('signed up')).catch(err => console.log(err));
+            }).then(() => console.log('signed up')).catch(err => {
+                console.log(err)
+                alert(err.message)
+            });
 
             this.setState({
                 newUser

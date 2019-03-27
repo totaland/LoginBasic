@@ -28,7 +28,7 @@ class SideNav extends Component {
     }
 
     render() {
-        const links = this.props.isAuthenticated ? <SideNavSignIn props = {this.props}/> : <SideNavSignOut props={this.props}/>;
+        const links = this.props.props.props.isAuthenticated ? <SideNavSignIn props = {this.props}/> : <SideNavSignOut props={this.props}/>;
 
         return (
             <ul className="sidenav white lighten-2" id={"slide-out"}>

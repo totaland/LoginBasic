@@ -7,7 +7,6 @@ const SideNavSignOut = (props) => {
             <li>
                 <div className="user-view">
                     <div className="background">
-                        {/*<img src="images/office.jpg"/>*/}
 
                     </div>
                     <a href="#user" className={'btn btn-floating cyan lighten-1 sidenav-button'}>PP</a>

@@ -32,13 +32,18 @@ class SignInForm extends Component {
             .then(() => {
                 console.log('signed in')
                 this.props.userHasAuthenticated(true);
-                // this.props.history.push('/');
             })
-            .catch(err => console.log(err));
+            .catch(err => {
+                console.log(err)
+                alert(err.message)
+            });
 
         Auth.confirmSignIn(username)
             .then(() => console.log('confirmed sign in'))
-            .catch((err) => console.log(err));
+            .catch((err) => {
+                console.log(err.message)
+                alert(err.message)
+            });
 
         this.setState({
             signedIn: true
