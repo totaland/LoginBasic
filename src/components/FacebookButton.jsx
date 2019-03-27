@@ -78,6 +78,7 @@ export default class FacebookButton extends Component {
                 className="btn-large cyan lighten-2"
                 onClick={this.handleClick}
                 disabled={this.state.isLoading}>
+                {/*this is how you assign text to button*/}
                 {this.props.message}
             </button>
 

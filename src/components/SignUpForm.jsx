@@ -133,10 +133,7 @@ class SignUpForm extends Component {
                                         </button>
                                     </div>
                                     <br/>
-                                    <div className="input-fields">
-                                        <FacebookButton onLogin={this.handleFbLogin} message={'Sign Up with FaceBook'}/>
-                                    </div>
-                                    <br/>
+
                                 </div>
                             </div>
                         </div>
