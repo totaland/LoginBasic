@@ -1,5 +1,6 @@
 import React from 'react'
 import { NavLink, withRouter } from 'react-router-dom'
+import Profile from'./Profile'
 
 const SideNavSignIn = (props) => {
 
@@ -7,17 +8,19 @@ const SideNavSignIn = (props) => {
         <ul>
             <li>
                 <div className="user-view">
-                    <div className="background">
+                    <div className="background backgroundColor">
 
                     </div>
-                    <a href="#user" className={'btn btn-floating cyan lighten-1 sidenav-button'}>PP</a>
-                    <a href="#name"><span className="grey-text name">Lea Medhurst</span></a>
-                    <a href="#email"><span className="grey-text email">james.nguyen868@gmail.com</span></a>
+                    <NavLink to={'/report'}><Profile/></NavLink>
+                    <a href="#name"><span className="white-text name">Lea Medhurst</span></a>
+                    <a href="#email"><span className="white-text email">james.nguyen868@gmail.com</span></a>
                 </div>
             </li>
-            <li><NavLink className="waves-effect" to={'/'}>Home</NavLink></li>
+            <li><NavLink className="waves-effect waves-red" to={'/'}>Home</NavLink></li>
+            <li><NavLink className="waves-effect waves-red" to={'/report'}>Report</NavLink></li>
+            <li><a onClick={props.props.props.signOut} className={'waves-effect waves-red'}>Log Out</a></li>
+            <hr/>
 
-            <li><a onClick={props.props.props.signOut}>Log Out</a></li>
 
         </ul>
     )

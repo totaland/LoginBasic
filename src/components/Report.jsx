@@ -16,8 +16,8 @@ const styles = {
 function ImageAvatars(props) {
     const { classes } = props;
     return (
-        <Grid container alignItems="center">
-            <Avatar alt="Remy Sharp" src={ProfilePicture} className={classes.avatar}/>
+        <Grid container justify="center" alignItems="center">
+            <h1>Report Page</h1>
         </Grid>
     );
 }

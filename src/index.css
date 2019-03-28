@@ -98,6 +98,13 @@
         margin-left: 0;
     }
 
+    .backgroundColor {
+        background-color: #ee6e73
+    }
+
+    .waves-effect.waves-red .waves-ripple {
+        background-color: #ee6e73
+    }
 
 }
 

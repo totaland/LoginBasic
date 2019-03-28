@@ -1,21 +1,23 @@
 import React from 'react'
 import {NavLink, withRouter} from 'react-router-dom'
+import Profile from "./Profile";
 
 const SideNavSignOut = (props) => {
     return (
         <ul>
             <li>
                 <div className="user-view">
-                    <div className="background">
+                    <div className="background backgroundColor">
 
                     </div>
-                    <a href="#user" className={'btn btn-floating cyan lighten-1 sidenav-button'}>PP</a>
-                    <a href="#name"><span className="grey-text name">Lea Medhurst</span></a>
-                    <a href="#email"><span className="grey-text email">james.nguyen868@gmail.com</span></a>
+                    <NavLink to={'/report'}><Profile/></NavLink>
+                    <a href="#name"><span className="white-text name">Lea Medhurst</span></a>
+                    <a href="#email"><span className="white-text email">james.nguyen868@gmail.com</span></a>
                 </div>
             </li>
-            <li><NavLink className={'waves-effect'} to={'/register'}>Signup</NavLink></li>
-            <li><NavLink className={'waves-effect'} to={'/login'}>Login</NavLink></li>
+            <li><NavLink className={'waves-effect waves-red'} to={'/register'}>Signup</NavLink></li>
+            <li><NavLink className={'waves-effect waves-red'} to={'/login'}>Login</NavLink></li>
+            <hr/>
         </ul>
     )
 }
