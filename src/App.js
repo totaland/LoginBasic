@@ -13,10 +13,12 @@ class App extends Component {
         super(props);
         this.state = {
             isAuthenticated: false,
-            isAuthenticating: true
+            isAuthenticating: true,
+            candidateId:''
         }
         this.signOut = this.signOut.bind(this);
         this.userHasAuthenticated = this.userHasAuthenticated.bind(this);
+        this.candidateID = this.candidateID.bind(this);
     }
 
     async componentDidMount() {
@@ -64,10 +66,18 @@ class App extends Component {
 
     }
 
+    candidateID = (id) => {
+        this.setState({
+            candidateId: id
+        })
+    }
+
     render() {
         const childProps = {
             isAuthenticated: this.state.isAuthenticated,
-            userHasAuthenticated: this.userHasAuthenticated
+            userHasAuthenticated: this.userHasAuthenticated,
+            candidateId: this.candidateID,
+            candidate: this.state.candidateId
         }
 
         return (

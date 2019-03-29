@@ -1,6 +1,6 @@
 import React from 'react'
 import {NavLink, withRouter} from 'react-router-dom'
-import Profile from "./Profile";
+import Profile from "./Avatar";
 
 const SideNavSignOut = (props) => {
     return (

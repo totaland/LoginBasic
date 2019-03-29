@@ -1,23 +1,14 @@
 import React from 'react'
 import axios from "axios";
 import M from "materialize-css";
+import { withRouter } from 'react-router-dom'
 
 class GetAccessToken extends React.Component {
     //Constructor to set all preset data such as apiUrl, packageID, clietReference
+
     constructor(props) {
         super(props);
         this.state = {
-            // In Axios headers info need to go in config and body info go to data
-            getToken: '',
-            headers: {
-                'x-client-id': '69696969-6969-6969-6969-696969696969',
-                'x-api-key': 'r2zf4FdpQWaazJd1t9yj0aQ3vXXcfy7J1HYTfnIj',
-                'content-type': 'application/json'
-            },
-            adsUrl: 'http://dev-hub-2.0.s3-website-ap-southeast-2.amazonaws.com/ads/',
-            apiUrl: 'https://assessmentapi.dev.int.revelian.com/api/candidates',
-            packageId: 'aafd7992-dfbb-4cf1-9bd6-31ade8442b4e',
-            clientReference: 'bef5513d-e4aa-4c78-a497-41ba5f54872f',
             tallyUp: 0,
             proofIt: 0,
             shortCuts: 0,
@@ -26,7 +17,9 @@ class GetAccessToken extends React.Component {
             numBubbles: 0,
             gridLock: 0,
             emotionalTies: 0,
-            languageID: ''
+            languageID: '',
+            getToken: '',
+            getCandidateId:''
         };
         this.handleClick = this.handleClick.bind(this);
         this.handleChange = this.handleChange.bind(this);
@@ -51,12 +44,25 @@ class GetAccessToken extends React.Component {
         Handle click function perform api call, get accessToken then change to hub
      */
     handleClick = (e) => {
+        const headers = {
+            'x-client-id': '69696969-6969-6969-6969-696969696969',
+            'x-api-key': 'r2zf4FdpQWaazJd1t9yj0aQ3vXXcfy7J1HYTfnIj',
+            'content-type': 'application/json'
+        }
+        const adsUrl = 'http://dev-hub-2.0.s3-website-ap-southeast-2.amazonaws.com/ads/'
+        const apiUrl = 'https://assessmentapi.dev.int.revelian.com/api/candidates'
+        const packageId = 'aafd7992-dfbb-4cf1-9bd6-31ade8442b4e'
+        const clientReference = 'bef5513d-e4aa-4c78-a497-41ba5f54872f'
+        const gamesCompletedRedirectUrl = 'https://d1rcpmq66cu07i.cloudfront.net'
+        const authenticateCandidateUrl = 'https://assessmentapi.dev.int.revelian.com/api/token/'
         const language = this.state.languageID;
+        // In Axios headers info need to go in config and body info go to data
         if(language===''){
-            axios.post(this.state.apiUrl, {
+            axios.post(apiUrl, {
                 //body in JSon API is the data in axios library
-                'packageId': this.state.packageId,
-                'clientReference': this.state.clientReference,
+                'gamesCompletedRedirectUrl': gamesCompletedRedirectUrl,
+                'packageId': packageId,
+                'clientReference': clientReference,
                 'timeScaleAdjustments': {
                     'TallyUp': this.state.tallyUp,
                     'ProofIt': this.state.proofIt,
@@ -67,15 +73,30 @@ class GetAccessToken extends React.Component {
                     'GridLock': this.state.gridLock,
                     'EmotionalTies': this.state.emotionalTies
                 }
-            }, {headers: this.state.headers}).then(res => {
-                this.setState({getToken: res.data.accessToken});
-                window.location.replace(this.state.adsUrl + this.state.getToken);
+            }, {headers: headers}).then(res => {
+                this.setState({
+                    getToken: res.data.accessToken,
+                    getCandidateId: res.data.candidateId
+                });
+                console.log(this.props);
+                // passing candidateId data to app then app pass to report
+                this.props.props.candidateId(this.state.getCandidateId);
+                // authorize the candidate
+                axios.post(authenticateCandidateUrl + this.state.getToken);
+
+                console.log('candidate authenticated');
+                // open game in new tab using the accessToken
+                window.open(adsUrl + this.state.getToken);
+                // redirect the current page to report
+                // I don't think I should do this
+                window.location.replace('/report');
             });
+
         } else {
-            axios.post(this.state.apiUrl, {
+            axios.post(apiUrl, {
                 //body in JSon API is the data in axios library
-                'packageId': this.state.packageId,
-                'clientReference': this.state.clientReference,
+                'packageId': packageId,
+                'clientReference': clientReference,
                 'languageId': this.state.languageID,
                 'timeScaleAdjustments': {
                     'TallyUp': this.state.tallyUp,
@@ -87,10 +108,11 @@ class GetAccessToken extends React.Component {
                     'GridLock': this.state.gridLock,
                     'EmotionalTies': this.state.emotionalTies
                 }
-            }, {headers: this.state.headers}).then(res => {
+            }, {headers: headers}).then(res => {
                 this.setState({getToken: res.data.accessToken});
-                window.location.replace(this.state.adsUrl + this.state.getToken);
+                window.location.replace(adsUrl + this.state.getToken);
             });
+
         }
 
         e.preventDefault();
@@ -173,6 +195,6 @@ class GetAccessToken extends React.Component {
 
 }
 
-export default GetAccessToken;
+export default withRouter(GetAccessToken);
 
 

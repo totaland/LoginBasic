@@ -2,10 +2,10 @@ import React from 'react'
 import GetAccessToken from './GetAccessToken'
 import {Redirect, withRouter} from 'react-router-dom'
 
-const BodyLayout = (props) => {
+const GetAccess = (props) => {
     return (
-        <GetAccessToken/>
+        <GetAccessToken props ={props}/>
     )
 }
 
-export default withRouter(BodyLayout);
+export default withRouter(GetAccess);
