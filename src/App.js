@@ -1,10 +1,10 @@
 import React, {Component} from 'react';
 import Amplify, {Auth} from 'aws-amplify';
 import awsmobile from './aws-exports';
-import Navbar from './components/NavBar'
+import Navbar from './navbar/NavBar'
 import {BrowserRouter, Switch, Route} from "react-router-dom";
-import Routes from './components/Routes'
-import FooterLayout from "./components/FooterLayout";
+import Routes from './routes/Routes'
+import FooterLayout from "./footer/FooterLayout";
 
 Amplify.configure(awsmobile);
 
@@ -90,7 +90,7 @@ class App extends Component {
                             <Routes childProps={childProps}/>
                         </div>
                     </div>
-                    <FooterLayout/>
+                    {/*<FooterLayout/>*/}
                 </div>
             </BrowserRouter>
         );

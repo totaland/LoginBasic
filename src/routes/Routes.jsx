@@ -3,7 +3,7 @@ import {Route, Switch} from "react-router-dom";
 import SignInForm from "./SignInForm";
 import SignUpForm from "./SignUpForm";
 import GetAccess from "./GetAccess";
-import Avatar from "./Avatar";
+import Avatar from "../components/Avatar";
 import Report from "./Report";
 import AuthenticatedRoute from "./AuthenticatedRoute";
 import UnauthenticatedRoute from "./UnauthenticatedRoute";

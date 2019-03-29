@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 import {Auth} from 'aws-amplify';
-import FacebookButton from "./FacebookButton";
+import FacebookButton from "../components/FacebookButton";
 
 class SignUpForm extends Component {
     constructor(props) {

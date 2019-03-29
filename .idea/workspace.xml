@@ -4,14 +4,24 @@
     <list default="true" id="2799bc40-5d9b-4511-b601-6a21bc14a346" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/BodyLayout.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/GetAccess.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/GetAccessToken.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/GetAccessToken.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Avatar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Report.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Report.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Routes.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Routes.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SideNavSignIn.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SideNavSignIn.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SideNavSignOut.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SideNavSignOut.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SignInLink.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SignInLink.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AppliedRoute.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/AppliedRoute.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AuthenticatedRoute.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/AuthenticatedRoute.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/FooterLayout.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/footer/FooterLayout.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/GetAccess.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/GetAccess.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/GetAccessToken.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/GetAccessToken.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainFooter.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/footer/MainFooter.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/NavBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/navbar/NavBar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/navbar/Navbar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Report.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Report.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Routes.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Routes.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SideNav.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/navbar/SideNav.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SideNavSignIn.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/navbar/SideNavSignIn.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SideNavSignOut.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/navbar/SideNavSignOut.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SignInForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/SignInForm.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SignInLink.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/navbar/SignInLink.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SignOutLink.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/navbar/SignOutLink.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SignUpForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/SignUpForm.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UnauthenticatedRoute.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/UnauthenticatedRoute.jsx" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -26,11 +36,11 @@
     <splitter split-orientation="horizontal" split-proportion="0.45155162">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/App.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="666">
-                  <caret line="78" column="42" lean-forward="true" selection-start-line="78" selection-start-column="42" selection-end-line="78" selection-end-column="42" />
+                <state relative-caret-position="615">
+                  <caret line="93" column="22" lean-forward="true" selection-start-line="93" selection-start-column="22" selection-end-line="93" selection-end-column="22" />
                   <folding>
                     <element signature="e#0#39#0" expanded="true" />
                   </folding>
@@ -39,34 +49,22 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/components/AppliedRoute.jsx">
+            <entry file="file://$PROJECT_DIR$/src/navbar/NavBar.jsx">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="85">
-                  <caret line="5" selection-start-line="5" selection-end-line="5" />
+                <state relative-caret-position="289">
+                  <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
                   <folding>
-                    <element signature="e#0#26#0" expanded="true" />
+                    <element signature="e#0#25#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/components/Routes.jsx">
+            <entry file="file://$PROJECT_DIR$/src/routes/Routes.jsx">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="221">
-                  <caret line="13" column="12" lean-forward="true" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
-                  <folding>
-                    <element signature="e#0#26#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/components/Report.jsx">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="595">
-                  <caret line="49" column="28" lean-forward="true" selection-start-line="49" selection-start-column="28" selection-end-line="49" selection-end-column="28" />
+                  <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
                   <folding>
                     <element signature="e#0#26#0" expanded="true" />
                   </folding>
@@ -75,10 +73,10 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/components/AuthenticatedRoute.jsx">
+            <entry file="file://$PROJECT_DIR$/src/routes/Report.jsx">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="238">
-                  <caret line="14" selection-start-line="14" selection-end-line="14" />
+                <state relative-caret-position="822">
+                  <caret line="49" column="28" lean-forward="true" selection-start-line="49" selection-start-column="28" selection-end-line="49" selection-end-column="28" />
                   <folding>
                     <element signature="e#0#26#0" expanded="true" />
                   </folding>
@@ -99,19 +97,7 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/components/FacebookButton.jsx">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="624">
-                  <caret line="81" column="36" lean-forward="true" selection-start-line="81" selection-start-column="36" selection-end-line="81" selection-end-column="36" />
-                  <folding>
-                    <element signature="e#0#41#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/components/FooterLayout.jsx">
+            <entry file="file://$PROJECT_DIR$/src/footer/FooterLayout.jsx">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="272">
                   <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
@@ -123,7 +109,18 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/components/GetAccessToken.jsx">
+            <entry file="file://$PROJECT_DIR$/src/footer/MainFooter.jsx">
+              <provider selected="true" editor-type-id="text-editor">
+                <state>
+                  <folding>
+                    <element signature="e#0#25#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/routes/GetAccessToken.jsx">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="3247">
                   <caret line="191" lean-forward="true" selection-start-line="191" selection-end-line="191" />
@@ -135,7 +132,7 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/components/GetAccess.jsx">
+            <entry file="file://$PROJECT_DIR$/src/routes/GetAccess.jsx">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="170">
                   <caret line="10" column="37" lean-forward="true" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
@@ -146,12 +143,24 @@
               </provider>
             </entry>
           </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/routes/UnauthenticatedRoute.jsx">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="578">
+                  <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+                  <folding>
+                    <element signature="e#0#26#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
         </leaf>
       </split-first>
       <split-second>
         <leaf>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/components/GetAccessToken.jsx">
+            <entry file="file://$PROJECT_DIR$/src/routes/GetAccessToken.jsx">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="-187">
                   <caret line="17" column="24" lean-forward="true" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
@@ -211,11 +220,13 @@
         <option value="$PROJECT_DIR$/src/index.css" />
         <option value="$PROJECT_DIR$/src/components/SideNavSignOut.jsx" />
         <option value="$PROJECT_DIR$/src/components/test.html" />
-        <option value="$PROJECT_DIR$/src/components/Routes.jsx" />
         <option value="$PROJECT_DIR$/src/components/GetAccess.jsx" />
-        <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/components/Report.jsx" />
         <option value="$PROJECT_DIR$/src/components/GetAccessToken.jsx" />
+        <option value="$PROJECT_DIR$/src/components/Routes.jsx" />
+        <option value="$PROJECT_DIR$/src/routes/Routes.jsx" />
+        <option value="$PROJECT_DIR$/src/navbar/NavBar.jsx" />
+        <option value="$PROJECT_DIR$/src/App.js" />
       </list>
     </option>
   </component>
@@ -245,12 +256,6 @@
               <item name="cory-login" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="cory-login" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cory-login" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -275,6 +280,9 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\james nguyen\Documents\Desktop\Git\APITestingHub2\cory-login\src\routes" />
+      <recent name="C:\Users\james nguyen\Documents\Desktop\Git\APITestingHub2\cory-login\src\navbar" />
+      <recent name="C:\Users\james nguyen\Documents\Desktop\Git\APITestingHub2\cory-login\src\footer" />
       <recent name="C:\Users\james nguyen\Documents\Desktop\Git\APITestingHub2\cory-login\src" />
       <recent name="C:\Users\james nguyen\Documents\Desktop\Git\APITestingHub2\cory-login\public\images" />
     </key>
@@ -321,12 +329,12 @@
       <option name="presentableId" value="Default" />
       <updated>1553386820833</updated>
       <workItem from="1553386822633" duration="75417000" />
-      <workItem from="1553678380854" duration="35064000" />
+      <workItem from="1553678380854" duration="36334000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="110481000" />
+    <option name="totallyTimeSpent" value="111751000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2872" y="-8" width="1936" height="1056" extended-state="6" />
@@ -364,17 +372,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/App.css" />
-    <entry file="file://$PROJECT_DIR$/src/components/UnauthenticatedRoute.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Navbar.css">
+    <entry file="file://$PROJECT_DIR$/src/navbar/Navbar.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/index.js">
@@ -387,16 +385,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/MainFooter.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/SignOutLink.jsx">
+    <entry file="file://$PROJECT_DIR$/src/navbar/SignOutLink.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
@@ -500,7 +489,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/SideNavSignOut.jsx">
+    <entry file="file://$PROJECT_DIR$/src/navbar/SideNavSignOut.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
@@ -510,7 +499,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/SideNavSignIn.jsx">
+    <entry file="file://$PROJECT_DIR$/src/navbar/SideNavSignIn.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
           <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
@@ -520,7 +509,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/SideNav.jsx">
+    <entry file="file://$PROJECT_DIR$/src/navbar/SideNav.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
           <caret line="29" column="14" lean-forward="true" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
@@ -530,7 +519,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/SignInForm.jsx">
+    <entry file="file://$PROJECT_DIR$/src/routes/SignInForm.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1139">
           <caret line="67" column="68" selection-start-line="67" selection-start-column="68" selection-end-line="67" selection-end-column="68" />
@@ -540,7 +529,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/SignUpForm.jsx">
+    <entry file="file://$PROJECT_DIR$/src/routes/SignUpForm.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1683">
           <caret line="135" selection-start-line="135" selection-end-line="135" />
@@ -550,7 +539,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/SignInLink.jsx">
+    <entry file="file://$PROJECT_DIR$/src/navbar/SignInLink.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
@@ -560,37 +549,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/NavBar.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Routes.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="12" lean-forward="true" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="666">
-          <caret line="78" column="42" lean-forward="true" selection-start-line="78" selection-start-column="42" selection-end-line="78" selection-end-column="42" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/AppliedRoute.jsx">
+    <entry file="file://$PROJECT_DIR$/src/routes/AppliedRoute.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" selection-start-line="5" selection-end-line="5" />
@@ -600,12 +559,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/AuthenticatedRoute.jsx">
+    <entry file="file://$PROJECT_DIR$/src/routes/AuthenticatedRoute.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/UnauthenticatedRoute.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/navbar/NavBar.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/FacebookButton.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="601">
+          <caret line="81" column="36" lean-forward="true" selection-start-line="81" selection-start-column="36" selection-end-line="81" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -620,37 +609,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/FacebookButton.jsx">
+    <entry file="file://$PROJECT_DIR$/src/routes/Routes.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="81" column="36" lean-forward="true" selection-start-line="81" selection-start-column="36" selection-end-line="81" selection-end-column="36" />
+        <state relative-caret-position="221">
+          <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
           <folding>
-            <element signature="e#0#41#0" expanded="true" />
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/FooterLayout.jsx">
+    <entry file="file://$PROJECT_DIR$/src/routes/Report.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        <state relative-caret-position="822">
+          <caret line="49" column="28" lean-forward="true" selection-start-line="49" selection-start-column="28" selection-end-line="49" selection-end-column="28" />
           <folding>
-            <element signature="e#0#25#0" expanded="true" />
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/GetAccessToken.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3247">
-          <caret line="191" lean-forward="true" selection-start-line="191" selection-end-line="191" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/GetAccess.jsx">
+    <entry file="file://$PROJECT_DIR$/src/routes/GetAccess.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="37" lean-forward="true" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
@@ -660,12 +639,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Report.jsx">
+    <entry file="file://$PROJECT_DIR$/src/routes/GetAccessToken.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="49" column="28" lean-forward="true" selection-start-line="49" selection-start-column="28" selection-end-line="49" selection-end-column="28" />
+        <state relative-caret-position="3247">
+          <caret line="191" lean-forward="true" selection-start-line="191" selection-end-line="191" />
           <folding>
-            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/footer/FooterLayout.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/footer/MainFooter.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="93" column="22" lean-forward="true" selection-start-line="93" selection-start-column="22" selection-end-line="93" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
