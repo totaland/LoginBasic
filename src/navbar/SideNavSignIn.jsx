@@ -1,6 +1,6 @@
 import React from 'react'
 import { NavLink, withRouter } from 'react-router-dom'
-import Profile from '../components/Avatar'
+import Avatar from '../components/Avatar'
 
 const SideNavSignIn = (props) => {
 
@@ -11,7 +11,7 @@ const SideNavSignIn = (props) => {
                     <div className="background backgroundColor">
 
                     </div>
-                    <NavLink to={'/report'}><Profile/></NavLink>
+                    <NavLink to={'/report'}><Avatar/></NavLink>
                     <a href="#name"><span className="white-text name">Lea Medhurst</span></a>
                     <a href="#email"><span className="white-text email">james.nguyen868@gmail.com</span></a>
                 </div>

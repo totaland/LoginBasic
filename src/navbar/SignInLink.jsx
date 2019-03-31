@@ -1,6 +1,6 @@
 import React from 'react'
 import {NavLink, withRouter} from 'react-router-dom'
-import Profile from "../components/Avatar";
+import Avatar from "../components/Avatar";
 
 
 const SignInLink = (props) => {
@@ -8,8 +8,8 @@ const SignInLink = (props) => {
         <ul className={'right hide-on-med-and-down'}>
             <li>
                 <li>
-                    <NavLink to={'/Profile'}>
-                        <Profile/>
+                    <NavLink to={'/profile'}>
+                        <Avatar/>
                     </NavLink>
                 </li>
                 <li><NavLink to={'/'}>Home</NavLink></li>

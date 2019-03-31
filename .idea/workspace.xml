@@ -2,26 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2799bc40-5d9b-4511-b601-6a21bc14a346" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/routes/PersonalProfile.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AppliedRoute.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/AppliedRoute.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AuthenticatedRoute.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/AuthenticatedRoute.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/FooterLayout.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/footer/FooterLayout.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/GetAccess.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/GetAccess.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/GetAccessToken.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/GetAccessToken.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MainFooter.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/footer/MainFooter.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/NavBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/navbar/NavBar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/navbar/Navbar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Report.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Report.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Routes.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Routes.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SideNav.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/navbar/SideNav.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SideNavSignIn.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/navbar/SideNavSignIn.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SideNavSignOut.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/navbar/SideNavSignOut.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SignInForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/SignInForm.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SignInLink.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/navbar/SignInLink.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SignOutLink.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/navbar/SignOutLink.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SignUpForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/SignUpForm.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UnauthenticatedRoute.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/UnauthenticatedRoute.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/navbar/SideNavSignIn.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/navbar/SideNavSignIn.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/navbar/SideNavSignOut.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/navbar/SideNavSignOut.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/navbar/SignInLink.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/navbar/SignInLink.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/Routes.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Routes.jsx" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -36,18 +22,6 @@
     <splitter split-orientation="horizontal" split-proportion="0.45155162">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/App.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="615">
-                  <caret line="93" column="22" lean-forward="true" selection-start-line="93" selection-start-column="22" selection-end-line="93" selection-end-column="22" />
-                  <folding>
-                    <element signature="e#0#39#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/navbar/NavBar.jsx">
               <provider selected="true" editor-type-id="text-editor">
@@ -61,22 +35,70 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/routes/Routes.jsx">
+            <entry file="file://$PROJECT_DIR$/src/navbar/SideNav.jsx">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="221">
-                  <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+                <state relative-caret-position="289">
+                  <caret line="29" column="14" lean-forward="true" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
                   <folding>
-                    <element signature="e#0#26#0" expanded="true" />
+                    <element signature="e#0#38#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/routes/Report.jsx">
+            <entry file="file://$PROJECT_DIR$/src/navbar/SideNavSignIn.jsx">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="822">
-                  <caret line="49" column="28" lean-forward="true" selection-start-line="49" selection-start-column="28" selection-end-line="49" selection-end-column="28" />
+                <state relative-caret-position="221">
+                  <caret line="13" column="51" selection-start-line="13" selection-start-column="51" selection-end-line="13" selection-end-column="51" />
+                  <folding>
+                    <element signature="e#0#25#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/navbar/SideNavSignOut.jsx">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="204">
+                  <caret line="12" column="51" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
+                  <folding>
+                    <element signature="e#0#25#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/navbar/SignInLink.jsx">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="204">
+                  <caret line="12" column="30" lean-forward="true" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+                  <folding>
+                    <element signature="e#0#25#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/navbar/SignOutLink.jsx">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="102">
+                  <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+                  <folding>
+                    <element signature="e#0#25#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/routes/Routes.jsx">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="204">
+                  <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
                   <folding>
                     <element signature="e#0#26#0" expanded="true" />
                   </folding>
@@ -87,8 +109,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/components/Avatar.jsx">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="306">
-                  <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+                <state relative-caret-position="357">
+                  <caret line="21" column="6" lean-forward="true" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
                   <folding>
                     <element signature="e#0#26#0" expanded="true" />
                   </folding>
@@ -97,33 +119,10 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/footer/FooterLayout.jsx">
+            <entry file="file://$PROJECT_DIR$/src/routes/PersonalProfile.jsx">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="272">
-                  <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-                  <folding>
-                    <element signature="e#0#25#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/footer/MainFooter.jsx">
-              <provider selected="true" editor-type-id="text-editor">
-                <state>
-                  <folding>
-                    <element signature="e#0#25#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/routes/GetAccessToken.jsx">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="3247">
-                  <caret line="191" lean-forward="true" selection-start-line="191" selection-end-line="191" />
+                <state relative-caret-position="136">
+                  <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
                   <folding>
                     <element signature="e#0#25#0" expanded="true" />
                   </folding>
@@ -135,21 +134,9 @@
             <entry file="file://$PROJECT_DIR$/src/routes/GetAccess.jsx">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="170">
-                  <caret line="10" column="37" lean-forward="true" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+                  <caret line="10" column="37" lean-forward="true" selection-end-line="10" selection-end-column="37" />
                   <folding>
                     <element signature="e#0#25#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/routes/UnauthenticatedRoute.jsx">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="578">
-                  <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
-                  <folding>
-                    <element signature="e#0#26#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -158,11 +145,11 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/routes/GetAccessToken.jsx">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-187">
+                <state relative-caret-position="289">
                   <caret line="17" column="24" lean-forward="true" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
                   <folding>
                     <element signature="e#0#25#0" expanded="true" />
@@ -224,9 +211,14 @@
         <option value="$PROJECT_DIR$/src/components/Report.jsx" />
         <option value="$PROJECT_DIR$/src/components/GetAccessToken.jsx" />
         <option value="$PROJECT_DIR$/src/components/Routes.jsx" />
-        <option value="$PROJECT_DIR$/src/routes/Routes.jsx" />
         <option value="$PROJECT_DIR$/src/navbar/NavBar.jsx" />
         <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/src/components/Avatar.jsx" />
+        <option value="$PROJECT_DIR$/src/routes/PersonalProfile.jsx" />
+        <option value="$PROJECT_DIR$/src/routes/Routes.jsx" />
+        <option value="$PROJECT_DIR$/src/navbar/SideNavSignIn.jsx" />
+        <option value="$PROJECT_DIR$/src/navbar/SideNavSignOut.jsx" />
+        <option value="$PROJECT_DIR$/src/navbar/SignInLink.jsx" />
       </list>
     </option>
   </component>
@@ -254,7 +246,30 @@
             <path>
               <item name="cory-login" type="b2602c69:ProjectViewProjectNode" />
               <item name="cory-login" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cory-login" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cory-login" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cory-login" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cory-login" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cory-login" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cory-login" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="navbar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cory-login" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cory-login" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -329,12 +344,13 @@
       <option name="presentableId" value="Default" />
       <updated>1553386820833</updated>
       <workItem from="1553386822633" duration="75417000" />
-      <workItem from="1553678380854" duration="36334000" />
+      <workItem from="1553678380854" duration="36559000" />
+      <workItem from="1554070736270" duration="1735000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="111751000" />
+    <option name="totallyTimeSpent" value="113711000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2872" y="-8" width="1936" height="1056" extended-state="6" />
@@ -344,7 +360,7 @@
       <window_info id="npm" order="1" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.16807166" />
       <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" weight="0.2831661" />
+      <window_info anchor="bottom" id="Terminal" order="0" visible="true" weight="0.3154961" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="2" />
       <window_info anchor="bottom" id="Docker" order="3" show_stripe_button="false" />
@@ -381,16 +397,6 @@
           <caret line="9" column="12" lean-forward="true" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/navbar/SignOutLink.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -436,89 +442,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="e#8209#8924#1" expanded="true" />
-            <element signature="e#9114#10121#1" expanded="true" />
-            <element signature="e#10244#10451#1" expanded="true" />
-            <element signature="e#57643#67727#0" expanded="true" />
-            <element signature="e#68805#69173#0" expanded="true" />
-            <element signature="e#69897#70265#0" expanded="true" />
-            <element signature="e#71816#71847#0" expanded="true" />
-            <element signature="e#71848#71854#1" expanded="true" />
-            <element signature="e#72376#72419#0" expanded="true" />
-            <element signature="e#72938#72981#0" expanded="true" />
-            <element signature="e#74835#74867#0" expanded="true" />
-            <element signature="e#75399#75767#0" expanded="true" />
-            <element signature="e#75847#75853#0" expanded="true" />
-            <element signature="e#75888#75917#0" expanded="true" />
-            <element signature="e#76672#167349#0" expanded="true" />
-            <element signature="e#167359#167391#0" expanded="true" />
-            <element signature="e#167937#181473#0" expanded="true" />
-            <element signature="e#182123#204148#0" expanded="true" />
-            <element signature="e#204158#204190#0" expanded="true" />
-            <element signature="e#204734#204740#1" expanded="true" />
-            <element signature="e#204940#204946#1" expanded="true" />
-            <element signature="e#205324#205388#0" expanded="true" />
-            <element signature="e#206955#206961#1" expanded="true" />
-            <element signature="e#207167#207173#1" expanded="true" />
-            <element signature="e#207559#207623#0" expanded="true" />
-            <element signature="e#208356#208388#0" expanded="true" />
-            <element signature="e#208569#208575#1" expanded="true" />
-            <element signature="e#208773#208779#1" expanded="true" />
-            <element signature="e#209170#209233#0" expanded="true" />
-            <element signature="e#209654#209717#0" expanded="true" />
-            <element signature="e#210127#210191#0" expanded="true" />
-            <element signature="e#210464#232301#0" expanded="true" />
-            <element signature="e#232348#254725#0" expanded="true" />
-            <element signature="e#254772#279149#0" expanded="true" />
-            <element signature="e#279195#279227#0" expanded="true" />
-            <element signature="e#280071#280077#1" expanded="true" />
-            <element signature="e#280283#280289#1" expanded="true" />
-            <element signature="e#280679#280743#0" expanded="true" />
-            <element signature="e#281668#281674#1" expanded="true" />
-            <element signature="e#281872#281878#1" expanded="true" />
-            <element signature="e#282259#282322#0" expanded="true" />
-            <element signature="e#282726#282790#0" expanded="true" />
-            <element signature="e#283063#342492#0" expanded="true" />
-            <element signature="e#342539#395596#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/navbar/SideNavSignOut.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/navbar/SideNavSignIn.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/navbar/SideNav.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="14" lean-forward="true" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/test.html" />
     <entry file="file://$PROJECT_DIR$/src/routes/SignInForm.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1139">
@@ -535,16 +459,6 @@
           <caret line="135" selection-start-line="135" selection-end-line="135" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/navbar/SignInLink.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -579,16 +493,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/navbar/NavBar.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/FacebookButton.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="601">
@@ -599,29 +503,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Avatar.jsx">
+    <entry file="file://$PROJECT_DIR$/src/App.test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+        <state relative-caret-position="153">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/routes/Routes.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/build/static/css/main.95acfbe3.chunk.css">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/routes/Report.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="822">
+        <state relative-caret-position="731">
           <caret line="49" column="28" lean-forward="true" selection-start-line="49" selection-start-column="28" selection-end-line="49" selection-end-column="28" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
@@ -629,29 +526,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/routes/GetAccess.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="37" lean-forward="true" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/routes/GetAccessToken.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3247">
-          <caret line="191" lean-forward="true" selection-start-line="191" selection-end-line="191" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/footer/FooterLayout.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
+        <state relative-caret-position="238">
           <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
@@ -670,10 +547,120 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="93" column="22" lean-forward="true" selection-start-line="93" selection-start-column="22" selection-end-line="93" selection-end-column="22" />
+        <state relative-caret-position="519">
+          <caret line="93" column="22" selection-start-line="93" selection-start-column="22" selection-end-line="93" selection-end-column="22" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/GetAccessToken.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="24" lean-forward="true" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/GetAccess.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="37" lean-forward="true" selection-end-line="10" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Avatar.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="6" lean-forward="true" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/PersonalProfile.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/Routes.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/navbar/NavBar.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/navbar/SideNav.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="29" column="14" lean-forward="true" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/navbar/SideNavSignIn.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="51" selection-start-line="13" selection-start-column="51" selection-end-line="13" selection-end-column="51" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/navbar/SideNavSignOut.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="51" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/navbar/SignOutLink.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/navbar/SignInLink.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="30" lean-forward="true" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
           </folding>
         </state>
       </provider>
