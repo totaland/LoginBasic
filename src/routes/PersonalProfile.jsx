@@ -4,7 +4,11 @@ import {Redirect, withRouter} from 'react-router-dom'
 
 const PersonalProfile = (props) => {
     return (
-        <Avatar props ={props}/>
+        <div>
+            <h1>This will be personal profile page.</h1>
+            <Avatar props ={props}/>
+
+        </div>
     )
 }
 

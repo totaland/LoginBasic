@@ -4,7 +4,7 @@ import SignInForm from "./SignInForm";
 import SignUpForm from "./SignUpForm";
 import GetAccess from "./GetAccess";
 import PersonalProfile from "../routes/PersonalProfile";
-import Report from "./Report";
+import Report from "../routes/Report";
 import AuthenticatedRoute from "./AuthenticatedRoute";
 import UnauthenticatedRoute from "./UnauthenticatedRoute";
 

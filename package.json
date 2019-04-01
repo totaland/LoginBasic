@@ -6,15 +6,16 @@
     "@fortawesome/fontawesome-svg-core": "^1.2.13",
     "@fortawesome/free-solid-svg-icons": "^5.7.0",
     "@fortawesome/react-fontawesome": "^0.1.4",
+    "@material-ui/icons": "^3.0.2",
     "aws-amplify": "^1.1.22",
     "aws-amplify-react": "^2.3.2",
     "materialize-css": "^1.0.0-rc.2",
+    "prop-types": "latest",
     "react": "^16.8.5",
     "react-dom": "^16.8.5",
     "react-materialize": "^3.0.2",
     "react-router-dom": "^5.0.0",
-    "react-scripts": "2.1.8",
-    "prop-types": "latest"
+    "react-scripts": "2.1.8"
   },
   "scripts": {
     "start": "react-scripts start",
