@@ -25,12 +25,12 @@ const styles = theme => ({
 
 function IconLabelButtons(props) {
     const { classes } = props;
-    console.log(props);
+    // console.log(props);
 
     const handleClick = (e) => {
 
-        const candidateId = props.candidate;
-        console.log(candidateId);
+        const candidateId = props.props.candidate;
+        // console.log(candidateId);
         const headers = {
             'x-client-id': '69696969-6969-6969-6969-696969696969',
             'x-api-key': 'r2zf4FdpQWaazJd1t9yj0aQ3vXXcfy7J1HYTfnIj',
@@ -55,7 +55,7 @@ function IconLabelButtons(props) {
         <div>
 
             <Button variant="contained" color="primary" className={classes.button} onClick ={handleClick}>
-                Send
+                GO
                 {/* This Button uses a Font Icon, see the installation instructions in the docs. */}
                 <Icon className={classes.rightIcon}>send</Icon>
             </Button>

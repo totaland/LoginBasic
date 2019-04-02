@@ -81,15 +81,18 @@ class GetAccessToken extends React.Component {
                 console.log(this.props);
                 // passing candidateId data to app then app pass to report
                 this.props.props.candidateId(this.state.getCandidateId);
-                // authorize the candidate
-                axios.post(authenticateCandidateUrl + this.state.getToken);
 
-                console.log('candidate authenticated');
-                // open game in new tab using the accessToken
-                window.open(adsUrl + this.state.getToken);
-                // redirect the current page to report
-                // I don't think I should do this
-                window.location.replace('/report');
+                console.log(this.state.getCandidateId)
+                // authorize the candidate
+                axios.post(authenticateCandidateUrl + this.state.getToken).then(()=>{
+                    console.log('candidate authenticated');
+                    // open game in new tab using the accessToken
+                    window.open(adsUrl + this.state.getToken);
+                    // redirect the current page to report
+                    // I don't think I should do this
+                    // window.location.replace('/report');
+                })
+
             });
 
         } else {

@@ -79,7 +79,7 @@ class CardItem extends Component {
     render() {
         const { classes } = this.props;
         const { props } = this.props;
-
+        // console.log(props);
         return (
             <div className={classes.root}>
                 <Paper className={classes.paper}>
@@ -95,7 +95,7 @@ class CardItem extends Component {
                                     Candidate Id
                                 </Typography>
                                 <Typography variant="h6" gutterBottom>
-                                    This will display candidate ID pull from DynamoDB
+                                    {props.candidate}
                                 </Typography>
                             </div>
                         </div>

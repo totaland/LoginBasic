@@ -28,8 +28,8 @@ class Cards extends Component {
         const { classes } = this.props;
         const { props } = this.props;
         // const props = this.props;
-        console.log(props);
-        console.log(classes);
+        // console.log(props);
+        // console.log(classes);
         return (
             <React.Fragment>
                 <CssBaseline />
