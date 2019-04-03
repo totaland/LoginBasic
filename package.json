@@ -9,6 +9,7 @@
     "@material-ui/icons": "^3.0.2",
     "aws-amplify": "^1.1.22",
     "aws-amplify-react": "^2.3.2",
+    "aws-sdk": "^2.434.0",
     "materialize-css": "^1.0.0-rc.2",
     "prop-types": "latest",
     "react": "^16.8.5",

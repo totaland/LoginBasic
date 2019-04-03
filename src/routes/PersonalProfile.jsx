@@ -1,13 +1,13 @@
 import React from 'react'
 import Avatar from '../components/Avatar'
-import {Redirect, withRouter} from 'react-router-dom'
-
+import { withRouter} from 'react-router-dom'
+import ProfileItem from '../components/ProfileItem'
+import ProfileItem2 from '../components/ProfileItem2'
 const PersonalProfile = (props) => {
     return (
         <div>
-            <h1>This will be personal profile page.</h1>
-            <Avatar props ={props}/>
-
+            {/*<ProfileItem props={props}/>*/}
+            <ProfileItem2/>
         </div>
     )
 }

@@ -2,7 +2,7 @@ import React,  { Component } from 'react';
 import withStyles from '@material-ui/core/styles/withStyles';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import Grid from '@material-ui/core/Grid';
-import CardItem from './CardItem';
+import ReportItem from './ReportItem';
 import SectionHeader from './SectionHeader';
 
 const styles = theme => ({
@@ -38,7 +38,7 @@ class Cards extends Component {
                         <Grid spacing={24} alignItems="center" justify="center" container className={classes.grid}>
                             <Grid item xs={12}>
                                 <SectionHeader title="Report" subtitle="List of candidates report" />
-                                <CardItem props={props}/>
+                                <ReportItem props={props}/>
                             </Grid>
                         </Grid>
                     </Grid>

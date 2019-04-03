@@ -1,0 +1,13 @@
+{
+    "bucketName": "imagesforapitesting",
+    "authPolicyName": "s3_amplify_0e0dbcbf",
+    "unauthPolicyName": "s3_amplify_0e0dbcbf",
+    "authRoleName": {
+        "Ref": "AuthRoleName"
+    },
+    "unauthRoleName": {
+        "Ref": "UnauthRoleName"
+    },
+    "authPermissions": "rw",
+    "unauthPermissions": ""
+}

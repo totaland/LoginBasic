@@ -10,6 +10,12 @@ const styles = {
         marginTop: 12,
         marginBottom: 12,
     },
+    bigAvatar: {
+        marginTop: 12,
+        marginBottom: 12,
+        width: 100,
+        height: 100,
+    }
 
 };
 

@@ -1,0 +1,10 @@
+{
+    "AppSyncApiName": "coryLogin",
+    "DynamoDBBillingMode": "PAY_PER_REQUEST",
+    "AuthCognitoUserPoolId": {
+        "Fn::GetAtt": [
+            "authcognito223ff108",
+            "Outputs.UserPoolId"
+        ]
+    }
+}
