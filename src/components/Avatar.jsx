@@ -10,12 +10,7 @@ const styles = {
         marginTop: 12,
         marginBottom: 12,
     },
-    bigAvatar: {
-        marginTop: 12,
-        marginBottom: 12,
-        width: 100,
-        height: 100,
-    }
+
 
 };
 
@@ -23,7 +18,7 @@ function ImageAvatars(props) {
     const { classes } = props;
     return (
         <Grid container alignItems="center">
-            <Avatar alt="Remy Sharp" src={ProfilePicture} className={classes.avatar}/>
+            <Avatar alt="Profile Picture" src={ProfilePicture} className={classes.avatar}/>
         </Grid>
     );
 }

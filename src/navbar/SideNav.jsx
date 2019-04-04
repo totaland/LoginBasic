@@ -1,5 +1,4 @@
 import React, {Component} from 'react'
-import {NavLink} from 'react-router-dom'
 import './Navbar.css'
 import {library} from '@fortawesome/fontawesome-svg-core'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
@@ -7,12 +6,8 @@ import {faIgloo} from '@fortawesome/free-solid-svg-icons'
 import {faShoppingBag} from '@fortawesome/free-solid-svg-icons'
 import {faSearch} from '@fortawesome/free-solid-svg-icons'
 import M from 'materialize-css';
-import SignInLink from "./SignInLink";
-import SignOutLink from "./SignOutLink";
 import SideNavSignIn from "./SideNavSignIn";
 import SideNavSignOut from "./SideNavSignOut";
-
-
 
 library.add(faIgloo);
 library.add(faShoppingBag);

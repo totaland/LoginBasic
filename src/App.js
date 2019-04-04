@@ -1,12 +1,15 @@
 import React, {Component} from 'react';
-import Amplify, {Auth} from 'aws-amplify';
+import Amplify, {Auth, Storage} from 'aws-amplify';
 import awsmobile from './aws-exports';
 import Navbar from './navbar/NavBar'
 import {BrowserRouter, Switch, Route} from "react-router-dom";
 import Routes from './routes/Routes'
 import FooterLayout from "./footer/FooterLayout";
+import { S3Album} from "aws-amplify-react";
 
 Amplify.configure(awsmobile);
+
+
 
 class App extends Component {
     constructor(props) {
@@ -14,11 +17,29 @@ class App extends Component {
         this.state = {
             isAuthenticated: false,
             isAuthenticating: true,
-            candidateId:''
+            candidateId:'',
+            imageUrl:'',
         }
         this.signOut = this.signOut.bind(this);
         this.userHasAuthenticated = this.userHasAuthenticated.bind(this);
         this.candidateID = this.candidateID.bind(this);
+        this.uploadFile = this.uploadFile.bind(this);
+    }
+
+    uploadFile = (evt) => {
+        const file = evt.target.files[0];
+        const name = file.name;
+        Storage.put(name, file).then((res) => {
+            console.log(res);
+            Storage.get(name).then((result) => {
+                this.setState({
+                    imageUrl: result
+                })
+            })
+
+        })
+
+
     }
 
     async componentDidMount() {
@@ -77,7 +98,9 @@ class App extends Component {
             isAuthenticated: this.state.isAuthenticated,
             userHasAuthenticated: this.userHasAuthenticated,
             candidateId: this.candidateID,
-            candidate: this.state.candidateId
+            candidate: this.state.candidateId,
+            uploadFile: this.uploadFile,
+            imageUrl: this.state.imageUrl,
         }
 
         return (
